@@ -40,11 +40,11 @@ In this lab, you will implement a series of security best practices to harden a 
       * C) You will need to generate a random 32 character passphrase. You can generate a random phrase by opening a new tab in Chrome and going to <https://www.keepersecurity.com/features/passphrase-generator/>.  Change the words to 8 and then copy the passphrase.
       ![Create PassPhrase](images/part2_step5c.png)
       * D) With the passphrase copied to your clipboard go back to the NetApp System Manager tab and paste that passphrase in the configure key manager section under onboard key manager and click prepare storage.
-      ![Prepare Storage](images/part2_step5d.png) -->
+      ![Prepare Storage](images/part2_step5d.png)
       * C) You will be redirected to the dashboard and you should be able to see available capacity in the capacity panel.
       ![Capacity Panel](images/part2_step5e.png)
       * F) Let's validate that our aggregate/tier is configured with encryption. Within system manager navigate to storage / tiers.  Click on the tier that's listed to get more details, validate that encryption status shows enabled.
-      ![Encryption Status](images/part2_step5f.png) -->
+      ![Encryption Status](images/part2_step5f.png)
 
 ## Part 3: System Manager Hardening
 

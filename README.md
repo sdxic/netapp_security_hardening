@@ -1,6 +1,6 @@
 # NetApp Security Hardening
 
-In this lab, you will implement a series of security best practices to harden a NetApp OnTap environment. This lab focuses on data encryption and protection, network security, and user access controls. This lab caters to individuals with some prior NetApp experience.
+In this lab, you will implement a series of security best practices to harden a NetApp ONTAP environment. This lab focuses on data encryption and protection, network security, and user access controls. This lab caters to individuals with some prior NetApp experience.
 
 ## Lab Activities
 
@@ -64,7 +64,7 @@ In this lab, you will implement a series of security best practices to harden a 
 5. We are not going to configure cluster notifications in the lab.  If this was a production environment we would want to ensure a syslog or SMTP server was configured for alerts.
 
 6. Let's generate and configure a certificate from our internal certificate authority.  We are doing this to ensure the HTTPS communication with the cluster is valid and secure.
-      * A) We will need to generate a certificate signing request from the OnTap cluster to import into our certificate authority.  Navigate to Cluster / Settings and then click on certificates under Security. At the top of the certificates menu you should see a Generate CSR button, click on that button.
+      * A) We will need to generate a certificate signing request from the ONTAP cluster to import into our certificate authority.  Navigate to Cluster / Settings and then click on certificates under Security. At the top of the certificates menu you should see a Generate CSR button, click on that button.
       ![Generate CSR](images/part3_step6a.png)
       * B) Under generate certificate signing request put in the following.
         * Subject Name - ntap-cl
